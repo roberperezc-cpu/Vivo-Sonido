@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonido Vivo - Amplificador 50W</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Sonido Vivo</h1>
+      <p>Viña del Mar</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Catálogo</a></li>
+        <li><a href="login.html">Ingresar</a></li>
+        <li><a href="registro.html">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap; background: #fff; padding: 2rem; border-radius: 8px;">
+      <img src="img/amplificador.jpg" alt="Amplificador 50W Studio" style="max-width: 320px; border-radius: 8px;">
+      
+      <div>
+        <h2>Amplificador 50W Studio</h2>
+        <p><strong>Categoría:</strong> Amplificación</p>
+        <p><strong>Disponibilidad:</strong> En Stock (Viña del Mar)</p><br>
+        <p>Amplificador de potencia pura de 50W con multiefectos digitales incorporados, ecualizador de 3 bandas y salida de auriculares para ensayo silencioso.</p><br>
+        
+        <p>Precio Unitario: <strong id="precio-unitario" data-precio="189990">$189.990</strong></p><br>
+
+        <div class="form-group">
+          <label for="cantidad">Cantidad a comprar:</label>
+          <input type="number" id="cantidad" value="1" min="1" max="5" style="width: 80px;">
+        </div>
+
+        <h3>Total a Pagar: <span id="precio-total">$189.990</span></h3><br>
+
+        <button class="btn">Agregar al Pedido</button>
+        <a href="productos.html" style="margin-left: 1rem; color: var(--primary-color);">Volver al Catálogo</a>
+      </div>
+    </div>
+  </main>
+<footer>
+    <p>&copy; 2026 Sonido Vivo - Viña del Mar, Chile. Todos los derechos reservados.</p>
+  </footer>
+  
+
+  <script src="js/script.js"></script>
+</body>
+</html>

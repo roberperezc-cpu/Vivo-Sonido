@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonido Vivo - Teclado Sintetizador</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Sonido Vivo</h1>
+      <p>Viña del Mar</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Catálogo</a></li>
+        <li><a href="login.html">Ingresar</a></li>
+        <li><a href="registro.html">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div style="display: flex; gap: 2rem; flex-wrap: wrap; background: #fff; padding: 2rem; border-radius: 8px;">
+      <img src="img/teclado.jpg" alt="Teclado Sintetizador 61 Teclas" style="max-width: 320px; border-radius: 8px;">
+      
+      <div>
+        <h2>Teclado Sintetizador 61 Teclas</h2>
+        <p><strong>Categoría:</strong> Teclados y Pianos</p>
+        <p><strong>Disponibilidad:</strong> En Stock (Viña del Mar)</p><br>
+        <p>Sintetizador versátil con sensibilidad al tacto, 500 voces, ritmos de acompañamiento automático y conexión USB-MIDI para producción musical.</p><br>
+        
+        <p>Precio Unitario: <strong id="precio-unitario" data-precio="320000">$320.000</strong></p><br>
+
+        <div class="form-group">
+          <label for="cantidad">Cantidad a comprar:</label>
+          <input type="number" id="cantidad" value="1" min="1" max="5" style="width: 80px;">
+        </div>
+
+        <h3>Total a Pagar: <span id="precio-total">$320.000</span></h3><br>
+
+        <button class="btn">Agregar al Pedido</button>
+        <a href="productos.html" style="margin-left: 1rem; color: var(--primary-color);">Volver al Catálogo</a>
+      </div>
+    </div>
+  </main>
+<footer>
+    <p>&copy; 2026 Sonido Vivo - Viña del Mar, Chile. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
